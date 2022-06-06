@@ -1,0 +1,5 @@
+#!/bin/sh
+mvn compile
+echo  "\n=============================================================================EXECUTION\n\n"
+mvn exec:java -Dexec.mainClass=org.aimperium.app.Main -q
+echo   "\n============================================================================FINISHED\n\n"
